@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Profit Trailer"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to Profit Trailer"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "ProfitTrailer": {
+      "name": "ProfitTrailer",
+      "url": "http://www.google.com",
+      "fulfillmentApiVersion" : 2
+    }
+  },
+  "locale": "en"
+}
